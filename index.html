@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        h1{
+            color:rgb(153, 243, 9);
+            background-color: rgb(235, 32, 150);
+            font-size: 30px;
+        }
+        .s1{
+            background-color: rgb(176, 216, 131);
+            color:brown;
+            font-size: 18px;
+        }
+        .s2{
+            background-color: rgb(209, 145, 67);
+            color: rgb(11, 1, 17);
+            font-size: 20px;
+        }
+        #li{
+            background-color: rgb(59, 160, 160);
+            color:rgb(0, 0, 0);
+            font-size: 20px;
+        }
+        #li2{
+            background-color: rgb(181, 224, 26);
+            font-size: 20px;
+            
+        }
+        .s3{
+            background-color: rgb(219, 68, 68);
+            color: aquamarine;
+            font-size: 25px;
+        }
+        #li3{
+            background-color: rgb(160, 128, 189);
+            color: rgb(9, 10, 10);
+            font-size: 20px;
+        }
+        .s4{
+            background-color: rgb(131, 132, 185);
+            color:rgb(100, 6, 6);
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Introduction to CSS</center>
+    </h1>
+    
+       <h2>Cascading Style Sheets:</h2>
+    <p class="s1">
+
+Cascading Style Sheets, is a style sheet language used to describe the visual presentation of a document written in HTML. CSS describes how elements should be rendered on screen.   It enables web designers to control the layout, colors, fonts, and other visual aspects of multiple web pages all at once. 
+In Cascading Style Sheets (CSS), cascading is the logic that browsers use to determine which CSS rulesets are most important when they conflict with each other. The cascade is central to CSS and is used to solve conflicts when multiple CSS rules apply to an HTML element. For example, if a button is styled with both `button { color: red; }` and `button { color: blue; }`, the cascade will determine that the button's text should be blue.
+
+    </p>
+  <h1><center> How to insert css into html (3 ways)</center></h1>
+  <ul class="s2">
+<li>Inline styling</li> 
+<li>Internal styling</li>
+<li>External styling</li>
+</ul>
+
+<b id="li2">  Inline Styling: </b> 
+<p class="s1">In inline styling CSS styles directly apply to the individual HTML elements using the style attribute.
+
+<center><p class="s1">< h1 style="color:blue;  text-align:center ;">This is a heading</h1></p></center>
+<p>
+    <b id="li2">  Internal Styling:</b>  
+    <p class="s1">Internal styling in CSS refers to the method of embedding CSS rules directly within the HTML document using the < style > tag.</p>
+    <b id="li2"> External Styling: </b>
+    <p class="s1">External CSS is used to style multiple HTML pages with a single style sheet. External CSS contains a separate CSS file with a .css extension.</p>
+
+   <h1 class="s3"> <center>How to link external stylesheet into html document</center></h1>
+   <p id="li3" >< head ><br><br>
+    < link rel="stylesheet" href="mystyle.css" ><br><br>
+    < /head >
+   </p>
+
+<h1>How to create external stylesheet</h1>
+<p class="s1">Create a file in a folder with .css extension and write the css code.
+
+
+</p>
+<b class="s4">Specificity:</b><br>
+<p class="s1">Inline styles have higher specificity compared to internal and external styles.
+</p>
+<center><h1>CSS SELECTORS</h1></center>
+<ul class="s2">
+<li>Simple Selectors</li>
+<li>Pseudo Selectors</li>
+<li>Combinators</li>
+<li>Attribute Selectors</li>
+</ul>
+<h1>SIMPLE SELECTORS</h1>
+<p class="s1">A simple selector in CSS refers to the most basic form of selecting elements on a webpage. It can target elements based on various criteria like tag name, class, id, attributes, or their relationship with other elements.</p>
+<ol class="s2">
+<li>Element Selectors</li>
+<li>Universal Selectors</li>
+    <li>Id selectors</li>
+        <li>class selectors</li>
+            <li>grouping selectors</li>
+</ol>
+
+
+
+      
+
+</body>
+</html>
